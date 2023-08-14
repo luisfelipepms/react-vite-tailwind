@@ -8,7 +8,7 @@ export default function SidebarConfig ({ children }) {
   const [expanded, setExpanded] = useState(true)
 
   return (
-    <aside className="h-screen absolute left-0 top-0">
+    <aside className="h-screen fixed left-0 top-0 transition-transform">
       <nav className="h-full flex flex-col bg-white border-r shadow-sm">
         <div className="p-4 pb-2 flex justify-between items-center">
           <img
